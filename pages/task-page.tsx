@@ -22,7 +22,7 @@ const TaskPage: React.VFC<STATICPROPS> = ({ staticTasks }) => {
     revalidateOnMount: true,
   })
 
-  if (error) return <span>Error!</span>
+  if (error) return <span>Erro!</span>
 
   return (
     <Layout title="Todos">
