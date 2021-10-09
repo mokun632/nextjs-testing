@@ -14,7 +14,7 @@ const axiosFetcher = async () => {
 const CommentPage: React.VFC = () => {
   const { data: comments, error } = useSWR('commentsFetch', axiosFetcher)
 
-  if (error) return <span>Error!</span>
+  if (error) return <span>Error</span>
 
   return (
     <Layout title="Comment">

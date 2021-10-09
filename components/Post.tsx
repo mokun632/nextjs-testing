@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { POST } from "../types/Types"
+import Link from 'next/link'
+import { POST } from '../types/Types'
 
 const Post: React.VFC<POST> = ({ id, title }) => {
   return (
@@ -16,4 +16,3 @@ const Post: React.VFC<POST> = ({ id, title }) => {
 }
 
 export default Post
-
